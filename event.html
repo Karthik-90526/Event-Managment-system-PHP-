@@ -1,0 +1,55 @@
+<html>
+<head>
+<style>
+.form1{
+  width:50%;
+  
+  height:500px;
+ background: rgba( 139, 190, 173, 0 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 9.5px );
+-webkit-backdrop-filter: blur( 9.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+</style>
+</head>
+<body>
+<center>
+<div class="form1">
+<center>
+<h1 >Registration form</h1>
+</center>
+
+<center>
+<form  action="eventsreg.php" method="post" >
+<label>RollNO:</label>
+<input type="text" name="rollno" value=""/>
+
+<label>  Name :</label>
+<input type="text"/  name="name" value="">
+<br><br>
+<label>Branch :</label>
+<input type="text"/ name="branch" value="">
+ 
+<label>Section :</label>
+<input type="text"/ name="section" value="">
+<br><br>
+<label>Event Name:</label>
+<input type="text"/ name="eventname" value="">
+<br><br>
+<label>Event Description:</label>
+<input type="text"/ name="description" value="">
+
+<br><br>
+
+<label>Select Image File:</label>
+    <input type="file" name="uploadfile">
+    <input type="submit" name="submit" value="submit">
+</form>
+</div>
+<script>
+
+</script>
+</body>
+</html>
